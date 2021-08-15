@@ -109,6 +109,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -120,6 +121,8 @@ body {
   background-color: var(--main-akcent-color);
   cursor: pointer;
   border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 .button:hover,
@@ -188,6 +191,7 @@ body {
 
 /*----------------------Портфолио--------------------*/
 .btn {
+  display: inline;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -196,6 +200,9 @@ body {
   background-color: #f5f4fa;
   color: #212121;
   cursor: pointer;
+  border-radius: 4px;
+  min-width: 73px;
+  padding: 6px 22px;
 }
 
 .btn:hover,
@@ -221,4 +228,12 @@ body {
 
 .link-portfolio:hover {
   color: var(--main-akcent-color);
+}
+/*----------03 модуль------------*/
+.container {
+  width: 1200px;
+  margin: 0% auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid orange;
 }

@@ -2,10 +2,11 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" 
+        href="./css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,7 @@
 <body>
                        <!--Шапка сайта-->
     <header class="header">
-        <nav class="header-nav">
+        <div class="container"><nav class="header-nav">
             <a class="header-linklogo link" href="./"> <span class="logo-blu" lang="en">Web</span><span class="logo-black" lang="en">Studio</span></a>
             <ul class="header-one list">
                 <li class="header-list">  <a class="header-link link current" href="./index.html">Студия</a></li>
@@ -22,16 +23,19 @@
                 <li class="header-list">  <a class="header-link link" href="./contacts.html">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="header-info list">
+        </div>
+        <div class="container"><ul class="header-info list">
             <li class="header-infolist">  <a class="header-mail link" href="meilto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="header-infolist">  <a class="header-tel link" href="tel:+3809611111">+3809611111</a></li>
         </ul>
+        </div>
     </header>
                            <!--Герой-->
     <main>
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <div class="container"><h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <button class="button" type="button">Заказать услугу</button>
+            </div>
         </section>
                         <!--Секции-->
         <section class="best">
