@@ -1,0 +1,224 @@
+:root {
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --main-akcent-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', 'Erial';
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.secondary-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+.main-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.third-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+/*--------------------------HEADER------------------------*/
+.logo-blu {
+  font-family: 'Raleway', 'Sans-serif';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-blu:hover,
+.logo-blu:focus {
+  color: #212121;
+}
+.logo-black {
+  font-family: 'Raleway', 'Sans-serif';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.logo-black:hover,
+.logo-black:focus {
+  color: var(--main-akcent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--main-akcent-color);
+}
+.current {
+  color: var(--main-akcent-color);
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-akcent-color);
+}
+/*--------------------------HERO--------------------------*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--main-akcent-color);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em color var(--secondary-title-color);
+}
+.text-team {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*--------------------------FOOTER------------------------*/
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-white:hover,
+.logo-white:focus {
+  color: var(--main-akcent-color);
+}
+.footer-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-map:focus,
+.footer-map:hover,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--main-akcent-color);
+}
+
+/*----------------------Портфолио--------------------*/
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--main-akcent-color);
+}
+
+.title-portfolio {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.link-portfolio:hover {
+  color: var(--main-akcent-color);
+}
