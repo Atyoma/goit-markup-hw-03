@@ -151,10 +151,12 @@ img {
 
 .container-header {
   display: flex;
+  border-bottom: 1px solid #ececec;
 }
 /*--------------------------HERO--------------------------*/
 .hero {
   text-align: center;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -168,13 +170,11 @@ img {
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: pre-wrap;
+  text-align: center;
   color: #ffffff;
 
-  background-color: orange;
-}
-
-.hero {
-  background-color: #2f303a;
+  /*background-color: orange;*/
 }
 
 .button {
@@ -196,30 +196,53 @@ img {
 .button:focus {
   background-color: #188ce8;
 }
-/*--------------------section------------------------*/
-.best {
+/*--------------------section best------------------------*/
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-team.secondary-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
+.best {
+  padding-bottom: 47px;
 }
+
+/*.best {
+  border: 2px solid tomato;
+}*/
+
+.best-work {
+  display: flex;
+}
+.best-list + .best-list {
+  margin-left: 30px;
+}
+/*-------------------section about------------------*/
+
 .about-title.secondary-title {
   margin-top: 0px;
   margin-bottom: 50px;
 }
-.about {
-  padding-top: 0px;
-  padding-bottom: 94px;
+/*.about {
   background-color: aqua;
+}*/
+
+.about-list {
+  display: flex;
 }
+.photo + .photo {
+  margin-left: 30px;
+}
+/*-------------------section team------------------*/
+.our-team.secondary-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
 .team {
-  padding-top: 0px;
-  padding-bottom: 0px;
   background-color: #f5f4fa;
 }
 .team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -227,15 +250,26 @@ img {
 }
 .text-team {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
+.team-list {
+  display: flex;
+}
+.dude + .dude {
+  margin-left: 30px;
+}
+.dude {
+  text-align: center;
+}
 /*--------------------------FOOTER------------------------*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -277,9 +311,18 @@ img {
   color: var(--main-akcent-color);
 }
 
+.footer-linklogo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-list:not(:last-child) {
+  display: block;
+  margin-bottom: 9px;
+}
+
 /*----------------------Портфолио--------------------*/
 .btn {
-  display: inline;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -317,23 +360,28 @@ img {
 .link-portfolio:hover {
   color: var(--main-akcent-color);
 }
+.workslist {
+  display: flex;
+  justify-content: center;
+}
+.filter + .filter {
+  margin-left: 8px;
+}
+.filters {
+  padding-top: 6px;
+  padding-bottom: 22px;
+}
 /*----------03 модуль------------*/
 .container {
   width: 1200px;
   margin: 0% auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid orange;
+  /*outline: 2px solid orange;*/
 }
 
 /*--------------------сетка портфолио------------*/
-.container-portfolio {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -344,10 +392,9 @@ img {
   flex-basis: calc(100% / 3 -30px);
   margin-left: 30px;
   margin-top: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
-.item * {
-  outline: 1px solid aqua;
-}
+
 .pictures {
   margin-bottom: 20px;
 }
