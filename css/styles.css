@@ -376,7 +376,7 @@ img {
 .workslist {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter + .filter {
   margin-left: 8px;
@@ -420,7 +420,6 @@ img {
   margin-bottom: 4px;
 }
 .card-content {
-  width: 370px;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
