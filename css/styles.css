@@ -100,7 +100,7 @@ img {
 .header-tel {
   display: block;
   padding-top: 32px;
-  padding-bottom: 48px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -120,12 +120,12 @@ img {
   margin-left: 0px;
   margin-right: 90px;
   padding-top: 24px;
-  padding-bottom: 48px;
+  padding-bottom: 25px;
 }
 
 .link-nav {
   padding-top: 32px;
-  padding-bottom: 48px;
+  padding-bottom: 32px;
 }
 
 .header-one {
@@ -147,16 +147,22 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .container-header {
   display: flex;
+}
+
+.header {
   border-bottom: 1px solid #ececec;
 }
 /*--------------------------HERO--------------------------*/
-.hero {
+.section.hero {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -202,12 +208,12 @@ img {
   padding-bottom: 94px;
 }
 .best {
-  padding-bottom: 47px;
+  padding-bottom: 0px;
 }
 
-/*.best {
-  border: 2px solid tomato;
-}*/
+.best-list {
+  width: 270px;
+}
 
 .best-work {
   display: flex;
@@ -221,13 +227,15 @@ img {
   margin-top: 0px;
   margin-bottom: 50px;
 }
-/*.about {
-  background-color: aqua;
-}*/
 
 .about-list {
   display: flex;
 }
+
+.photo {
+  width: 370px;
+}
+
 .photo + .photo {
   margin-left: 30px;
 }
@@ -265,6 +273,11 @@ img {
 }
 .dude {
   text-align: center;
+  width: 270px;
+}
+.block {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*--------------------------FOOTER------------------------*/
 .footer {
@@ -374,7 +387,7 @@ img {
 /*----------03 модуль------------*/
 .container {
   width: 1200px;
-  margin: 0% auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   /*outline: 2px solid orange;*/
