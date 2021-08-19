@@ -376,6 +376,7 @@ img {
 .workslist {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .filter + .filter {
   margin-left: 8px;
@@ -398,24 +399,33 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
 }
 .item {
-  flex-basis: calc(100% / 3 -30px);
-  margin-left: 30px;
-  margin-top: 30px;
-  border-bottom: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .pictures {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .title-portfolio {
   margin-bottom: 4px;
 }
 .card-content {
+  width: 370px;
+  padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
