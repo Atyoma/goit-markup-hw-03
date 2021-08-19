@@ -249,16 +249,17 @@ img {
   background-color: #f5f4fa;
 }
 .team-title {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em color var(--secondary-title-color);
 }
+
 .text-team {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
